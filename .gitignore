@@ -1,0 +1,18 @@
+# ไม่ให้เก็บ virtual environment
+venv/
+.venv/
+
+# ไม่ให้เก็บไฟล์ความลับ
+.env
+
+# ไฟล์หรือโฟลเดอร์ของ macOS
+.DS_Store
+
+# ไฟล์ Python ทั่วไปที่ไม่ควร track
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ไฟล์ log หรือชั่วคราว
+*.log
+*.tmp

@@ -25,7 +25,7 @@ def send_email():
         server.send_message(msg)
         print("อีเมลถูกส่งแล้ว!")
 
-schedule.every().day.at("08:00").do(send_email)
+schedule.every().day.at("01:28").do(send_email)
 print("กำลังรอเวลาส่งอีเมลทุกวันตอน 8 โมงเช้า...")
 while True:
     schedule.run_pending()
